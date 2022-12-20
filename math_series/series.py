@@ -26,6 +26,3 @@ def sum_series(n, m=0, o=1):
         return o
     else:
         return sum_series(n - 2, m, o) + sum_series(n - 1, m, o)
-
-
-print("hi")
